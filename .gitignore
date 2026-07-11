@@ -1,0 +1,38 @@
+# --- Java, Spring Boot & Eclipse ---
+*.class
+*.log
+*.jar
+*.war
+tc_num_check_be/target/
+tc_num_check_be/build/
+tc_num_check_be/.mvn/wrapper/maven-wrapper.jar
+!tc_num_check_be/mvnw
+
+# Eclipse & STS files
+tc_num_check_be/.metadata/
+tc_num_check_be/.classpath
+tc_num_check_be/.project
+tc_num_check_be/.settings/
+tc_num_check_be/bin/
+tc_num_check_be/*.launch
+tc_num_check_be/.apt_generated
+tc_num_check_be/.factorypath
+tc_num_check_be/.springBeans
+tc_num_check_be/.sts4-cache/
+
+# --- Angular & Node.js ---
+tc_num_check_fe/node_modules/
+tc_num_check_fe/dist/
+tc_num_check_fe/.angular/
+tc_num_check_fe/.sass-cache/
+tc_num_check_fe/npm-debug.log*
+tc_num_check_fe/yarn-debug.log*
+tc_num_check_fe/yarn-error.log*
+
+# --- IDEs & Environments (any depth in the repo) ---
+.idea/
+*.iml
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
