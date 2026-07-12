@@ -1,10 +1,10 @@
-package com.TDD.TCnumCheck.demo;
+package com.tdd.tc_num_check;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class TcNumApplicationTests {
 
 	@Test
 	void contextLoads() {
